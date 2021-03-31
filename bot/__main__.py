@@ -30,7 +30,7 @@ def stats(update, context):
     memory = psutil.virtual_memory().percent
     disk = psutil.disk_usage('/').percent
     stats = f'<b>𝐈 𝐜𝐨𝐮𝐥𝐝 𝐞𝐢𝐭𝐡𝐞𝐫 𝐰𝐚𝐭𝐜𝐡 𝐢𝐭 𝐡𝐚𝐩𝐩𝐞𝐧 𝐨𝐫 𝐛𝐞 𝐚 𝐩𝐚𝐫𝐭 𝐨𝐟 𝐢𝐭</b>\n\n' \
-            f'<b>╭─────────「 TTUmegabot2  」</b>\n' \
+            f'<b>╭─────────「 TTUmegabot1  」</b>\n' \
             f'<b>│</b>\n' \
             f'<b>├  ⌚Bot Uptime:</b> {currentTime}\n' \
             f'<b>├  💾Total disk space:</b> {total}\n' \
@@ -42,7 +42,7 @@ def stats(update, context):
             f'<b>├  ⛏️RAM:</b> {memory}% \n' \
             f'<b>├  🗄️Disk:</b> {disk}% \n' \
             f'<b>│</b>\n' \
-            f'<b>╰─────────「 TTUmegabot2  」</b>'
+            f'<b>╰─────────「 TTUmegabot1  」</b>'
     sendMessage(stats, context.bot, update)
 
 
