@@ -29,7 +29,7 @@ def stats(update, context):
     cpuUsage = psutil.cpu_percent(interval=0.5)
     memory = psutil.virtual_memory().percent
     disk = psutil.disk_usage('/').percent
-    stats = f'<b>𝐎𝐯𝐞𝐫 𝐄𝐯𝐞𝐫𝐲 𝐏𝐨𝐬𝐬𝐞𝐬𝐬𝐨𝐫 𝐨𝐟 𝐊𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐓𝐡𝐞𝐫𝐞 𝐢𝐬 𝐒𝐨𝐦𝐞 𝐎𝐧𝐞 𝐄𝐥𝐬𝐞 𝐌𝐨𝐫𝐞 𝐊𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞𝐚𝐛𝐥𝐞</b>\n\n' \
+    stats = f'<b>𝐘𝐨𝐮 𝐜𝐚𝐧 𝐠𝐨 𝐚𝐬 𝐟𝐚𝐫 𝐚𝐬 𝐲𝐨𝐮𝐫 𝐦𝐢𝐧𝐝 𝐥𝐞𝐭𝐬 𝐲𝐨𝐮 𝐖𝐡𝐚𝐭 𝐲𝐨𝐮 𝐛𝐞𝐥𝐢𝐞𝐯𝐞 𝐫𝐞𝐦𝐞𝐦𝐛𝐞𝐫 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐡𝐢𝐞𝐯𝐞</b>\n\n' \
             f'<b>╭─────────「 TTUcloudbot2  」</b>\n' \
             f'<b>│</b>\n' \
             f'<b>├  ⌚Bot Uptime:</b> {currentTime}\n' \
